@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ansari Notes Hub | Class 10 & 12 Notes</title>
+
+    <meta name="description" content="Ansari Notes Hub पर Class 10 और Class 12 के आसान हिंदी नोट्स, eBooks और Free Notes पढ़ें और डाउनलोड करें।">
+
+    <meta name="keywords" content="Class 10 Notes, Class 12 Notes, Hindi Notes, History Notes, NCERT Notes, eBooks, Ansari Notes Hub">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="container nav-container">
+
+            <a href="index.html" class="logo">
+                <span class="logo-icon">📚</span>
+                <span>Ansari Notes Hub</span>
+            </a>
+
+            <nav class="nav-menu">
+                <a href="#home">Home</a>
+                <a href="#class10">Class 10</a>
+                <a href="#class12">Class 12</a>
+                <a href="#ebooks">eBooks</a>
+                <a href="#free-notes">Free Notes</a>
+            </nav>
+
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <span class="hero-badge">
+                        📚 विद्यार्थियों के लिए आसान नोट्स
+                    </span>
+
+                    <h1>
+                        Class 10 & 12 Notes
+                        <span>एक ही जगह</span>
+                    </h1>
+
+                    <p>
+                        आसान भाषा में पढ़ें, समझें और अपने परीक्षा की तैयारी बेहतर बनाएं।
+                        यहाँ आपको Notes, eBooks और Free Study Material मिलेगा।
+                    </p>
+
+                    <!-- Search -->
+
+                    <div class="search-box">
+
+                        <input
+                            type="text"
+                            id="searchInput"
+                            placeholder="🔍 Notes या Subject खोजें..."
+                            onkeyup="searchNotes()"
+                        >
+
+                        <button onclick="searchNotes()">
+                            Search
+                        </button>
+
+                    </div>
+
+                    <div class="hero-buttons">
+
+                        <a href="#class10" class="btn primary-btn">
+                            📚 Class 10 Notes
+                        </a>
+
+                        <a href="#class12" class="btn secondary-btn">
+                            📖 Class 12 Notes
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="hero-card">
+
+                    <div class="book-icon">📖</div>
+
+                    <h3>Ansari Notes Hub</h3>
+
+                    <p>
+                        पढ़ाई से जुड़ी जरूरी सामग्री एक ही जगह
+                    </p>
+
+                    <div class="hero-stats">
+
+                        <div>
+                            <strong>10+</strong>
+                            <span>Class</span>
+                        </div>
+
+                        <div>
+                            <strong>100+</strong>
+                            <span>Notes</span>
+                        </div>
+
+                        <div>
+                            <strong>Free</strong>
+                            <span>Study</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= QUICK CATEGORIES ================= -->
+
+        <section class="categories">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <span>श्रेणियाँ</span>
+
+                    <h2>अपनी पढ़ाई शुरू करें</h2>
+
+                    <p>
+                        अपनी कक्षा के अनुसार Notes और Study Material चुनें।
+                    </p>
+
+                </div>
+
+                <div class="category-grid">
+
+                    <a href="#class10" class="category-card">
+
+                        <div class="category-icon">📚</div>
+
+                        <h3>Class 10</h3>
+
+                        <p>Class 10 के सभी जरूरी Notes</p>
+
+                        <span>देखें →</span>
+
+                    </a>
+
+
+                    <a href="#class12" class="category-card">
+
+                        <div class="category-icon">🎓</div>
+
+                        <h3>Class 12</h3>
+
+                        <p>Class 12 के Study Notes</p>
+
+                        <span>देखें →</span>
+
+                    </a>
+
+
+                    <a href="#ebooks" class="category-card">
+
+                        <div class="category-icon">📖</div>
+
+                        <h3>eBooks</h3>
+
+                        <p>परीक्षा के लिए आसान eBooks</p>
+
+                        <span>देखें →</span>
+
+                    </a>
+
+
+                    <a href="#free-notes" class="category-card">
+
+                        <div class="category-icon">📝</div>
+
+                        <h3>Free Notes</h3>
+
+                        <p>बिल्कुल Free Study Material</p>
+
+                        <span>देखें →</span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= LATEST NOTES ================= -->
+
+        <section class="notes-section" id="latest">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+                        <span>नए Notes</span>
+                        <h2>⭐ Latest Notes</h2>
+                    </div>
+
+                    <a href="#free-notes" class="view-all">
+                        सभी Notes →
+                    </a>
+
+                </div>
+
+
+                <div class="notes-grid">
+
+
+                    <!-- NOTE 1 -->
+
+                    <article class="note-card" data-title="Europe me Rashtrawad Class 10 History">
+
+                        <div class="note-image history">
+                            📜
+                        </div>
+
+                        <div class="note-content">
+
+                            <span class="note-tag">
+                                Class 10 History
+                            </span>
+
+                            <h3>
+                                यूरोप में राष्ट्रवाद
+                            </h3>
+
+                            <p>
+                                Class 10 History के महत्वपूर्ण Notes और प्रश्न-उत्तर।
+                            </p>
+
+                            <div class="note-buttons">
+
+                                <a href="#" class="read-btn">
+                                    📖 Read
+                                </a>
+
+                                <a href="#" class="download-btn">
+                                    ⬇ Download
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- NOTE 2 -->
+
+                    <article class="note-card" data-title="Class 10 History Notes">
+
+                        <div class="note-image history">
+                            🏛️
+                        </div>
+
+                        <div class="note-content">
+
+                            <span class="note-tag">
+                                Class 10
+                            </span>
+
+                            <h3>
+                                इतिहास के महत्वपूर्ण Notes
+                            </h3>
+
+                            <p>
+                                परीक्षा की तैयारी के लिए आसान भाषा में Notes।
+                            </p>
+
+                            <div class="note-buttons">
+
+                                <a href="#" class="read-btn">
+                                    📖 Read
+                                </a>
+
+                                <a href="#" class="download-btn">
+                                    ⬇ Download
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- NOTE 3 -->
+
+                    <article class="note-card" data-title="Class 12 Notes">
+
+                        <div class="note-image science">
+                            🎓
+                        </div>
+
+                        <div class="note-content">
+
+                            <span class="note-tag">
+                                Class 12
+                            </span>
+
+                            <h3>
+                                Class 12 Important Notes
+                            </h3>
+
+                            <p>
+                                Class 12 के महत्वपूर्ण विषयों के Study Notes।
+                            </p>
+
+                            <div class="note-buttons">
+
+                                <a href="#" class="read-btn">
+                                    📖 Read
+                                </a>
+
+                                <a href="#" class="download-btn">
+                                    ⬇ Download
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CLASS 10 ================= -->
+
+        <section class="class-section" id="class10">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <span>कक्षा 10</span>
+
+                    <h2>📚 Class 10 Notes</h2>
+
+                    <p>
+                        Class 10 के विषयों के आसान और परीक्षा-उपयोगी Notes।
+                    </p>
+
+                </div>
+
+
+                <div class="subject-grid">
+
+                    <div class="subject-card">
+
+                        <div class="subject-icon">📜</div>
+
+                        <h3>इतिहास</h3>
+
+                        <p>
+                            History Notes और महत्वपूर्ण प्रश्न-उत्तर
+                        </p>
+
+                        <a href="#" class="subject-btn">
+                            Notes देखें →
+                        </a>
+
+                    </div>
+
+
+                    <div class="subject-card">
+
+                        <div class="subject-icon">🌍</div>
+
+                        <h3>भूगोल</h3>
+
+                        <p>
+                            Geography के महत्वपूर्ण Notes
+                        </p>
+
+                        <a href="#" class="subject-btn">
+                            Notes देखें →
+                        </a>
+
+                    </div>
+
+
+                    <div class="subject-card">
+
+                        <div class="subject-icon">🏛️</div>
+
+                        <h3>नागरिक शास्त्र</h3>
+
+                        <p>
+                            Civics के आसान Notes
+                        </p>
+
+                        <a href="#" class="subject-btn">
+                            Notes देखें →
+                        </a>
+
+                    </div>
+
+
+                    <div class="subject-card">
+
+                        <div class="subject-icon">💰</div>
+
+                        <h3>अर्थशास्त्र</h3>
+
+                        <p>
+                            Economics के परीक्षा-उपयोगी Notes
+                        </p>
+
+                        <a href="#" class="subject-btn">
+                            Notes देखें →
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CLASS 12 ================= -->
+
+        <section class="class-section class12-section" id="class12">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <span>कक्षा 12</span>
+
+                    <h2>🎓 Class 12 Notes</h2>
+
+                    <p>
+                        Class 12 के विषयों के महत्वपूर्ण Study Notes।
+                    </p>
+
+                </div>
+
+
+                <div class="subject-grid">
+
+                    <div class="subject-card">
+
+                        <div class="subject-icon">📚</div>
+
+                        <h3>इतिहास</h3>
+
+                        <p>
+                            Class 12 History के महत्वपूर्ण Notes
+                        </p>
+
+                        <a href="#" class="subject-btn">
+                            Notes देखें →
+                        </a>
+
+                    </div>
+
+
+                    <div class="subject-card">
+
+                        <div class="subject-icon">🌍</div>
+
+                        <h3>भूगोल</h3>
+
+                        <p>
+                            Geography के परीक्षा-उपयोगी Notes
+                        </p>
+
+                        <a href="#" class="subject-btn">
+                            Notes देखें →
+                        </a>
+
+                    </div>
+
+
+                    <div class="subject-card">
+
+                        <div class="subject-icon">🏛️</div>
+
+                        <h3>राजनीति विज्ञान</h3>
+
+                        <p>
+                            Political Science के आसान Notes
+                        </p>
+
+                        <a href="#" class="subject-btn">
+                            Notes देखें →
+                        </a>
+
+                    </div>
+
+
+                    <div class="subject-card">
+
+                        <div class="subject-icon">📊</div>
+
+                        <h3>अर्थशास्त्र</h3>
+
+                        <p>
+                            Economics के महत्वपूर्ण Notes
+                        </p>
+
+                        <a href="#" class="subject-btn">
+                            Notes देखें →
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EBOOKS ================= -->
+
+        <section class="ebooks-section" id="ebooks">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+                        <span>पढ़ें और सीखें</span>
+                        <h2>📖 eBooks</h2>
+                    </div>
+
+                    <a href="#" class="view-all">
+                        सभी eBooks →
+                    </a>
+
+                </div>
+
+
+                <div class="ebook-grid">
+
+                    <div class="ebook-card">
+
+                        <div class="ebook-cover">
+                            📖
+                        </div>
+
+                        <div class="ebook-content">
+
+                            <span>Class 10</span>
+
+                            <h3>
+                                यूरोप में राष्ट्रवाद
+                            </h3>
+
+                            <p>
+                                History Chapter 1 eBook
+                            </p>
+
+                            <a href="#" class="ebook-btn">
+                                eBook पढ़ें →
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="ebook-card">
+
+                        <div class="ebook-cover">
+                            📚
+                        </div>
+
+                        <div class="ebook-content">
+
+                            <span>Class 10</span>
+
+                            <h3>
+                                History Complete Notes
+                            </h3>
+
+                            <p>
+                                परीक्षा के लिए महत्वपूर्ण Notes
+                            </p>
+
+                            <a href="#" class="ebook-btn">
+                                eBook पढ़ें →
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FREE NOTES ================= -->
+
+        <section class="free-section" id="free-notes">
+
+            <div class="container">
+
+                <div class="free-box">
+
+                    <div class="free-icon">
+                        📝
+                    </div>
+
+                    <div>
+
+                        <span>बिल्कुल Free</span>
+
+                        <h2>
+                            Free Notes डाउनलोड करें
+                        </h2>
+
+                        <p>
+                            विद्यार्थियों के लिए उपयोगी Notes बिल्कुल Free उपलब्ध कराने का हमारा प्रयास।
+                        </p>
+
+                    </div>
+
+                    <a href="#latest" class="btn primary-btn">
+                        Notes देखें →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="about-section" id="about">
+
+            <div class="container about-content">
+
+                <div class="about-text">
+
+                    <span>हमारे बारे में</span>
+
+                    <h2>
+                        Ansari Notes Hub
+                    </h2>
+
+                    <p>
+                        Ansari Notes Hub एक educational website है जहाँ
+                        Class 10 और Class 12 के विद्यार्थियों के लिए आसान भाषा में
+                        Notes, eBooks और Study Material उपलब्ध कराया जाएगा।
+                    </p>
+
+                    <p>
+                        हमारा उद्देश्य है कि विद्यार्थियों को जरूरी पढ़ाई की सामग्री
+                        एक ही जगह आसानी से मिल सके।
+                    </p>
+
+                </div>
+
+
+                <div class="about-card">
+
+                    <div>📚</div>
+
+                    <h3>
+                        पढ़ें • समझें • आगे बढ़ें
+                    </h3>
+
+                    <p>
+                        Class 10 & 12 Notes एक ही जगह
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section class="contact-section" id="contact">
+
+            <div class="container">
+
+                <div class="section-title">
+
+                    <span>संपर्क करें</span>
+
+                    <h2>📞 Contact Us</h2>
+
+                    <p>
+                        Website से जुड़ी जानकारी या सुझाव के लिए संपर्क करें।
+                    </p>
+
+                </div>
+
+
+                <div class="contact-grid">
+
+                    <a href="#" class="contact-card">
+
+                        <div>📱</div>
+
+                        <h3>WhatsApp</h3>
+
+                        <p>
+                            हमसे WhatsApp पर जुड़ें
+                        </p>
+
+                    </a>
+
+
+                    <a href="#" class="contact-card">
+
+                        <div>✈️</div>
+
+                        <h3>Telegram</h3>
+
+                        <p>
+                            Notes और Updates पाएँ
+                        </p>
+
+                    </a>
+
+
+                    <a href="#" class="contact-card">
+
+                        <div>▶️</div>
+
+                        <h3>YouTube</h3>
+
+                        <p>
+                            Educational Videos देखें
+                        </p>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div class="footer-brand">
+
+                <h3>
+                    📚 Ansari Notes Hub
+                </h3>
+
+                <p>
+                    Class 10 & 12 Notes एक ही जगह
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h4>Quick Links</h4>
+
+                <a href="#home">Home</a>
+        
